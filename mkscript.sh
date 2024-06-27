@@ -28,7 +28,7 @@ function main() {
 	
 	touch "$name" && chmod +x "$name" && echo "$bash_path" >> "$name" && printf "${green}Created $name" || error
 
-	(mousepad "$name")   # open file in subshell aka background
+	mousepad "$name" &  # open file in subshell aka background
 }
 
 

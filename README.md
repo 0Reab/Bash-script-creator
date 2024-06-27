@@ -16,7 +16,7 @@ To use the script, run it with the desired name for your new Bash script as an a
 
 # Example
 
-./bash_script_creator.sh my_script
+./mkscript.sh my_script
 This will create a file named my_script.sh, make it executable, add a shebang line, and open it in mousepad.
 
 # Options
@@ -35,7 +35,7 @@ Navigate to the script directory:
 cd bash-script-creator
 Make the script executable:
 
-chmod +x bash_script_creator.sh
+chmod +x mkscript.sh
 
 # Notes
 Ensure that the target filename does not conflict with existing files in the directory to avoid accidental overwriting.

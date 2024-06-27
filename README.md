@@ -14,6 +14,12 @@ To use the script, run it with the desired name for your new Bash script as an a
 
 ./mkscript.sh <script_name>
 
+# Efficient Usage
+
+Put this script in /usr/local/bin and remove '.sh' extension so you can run this globally and without './'
+cp mkscript.sh mkscript
+sudo mv mkscript /usr/local/bin
+
 # Example
 
 ./mkscript.sh my_script

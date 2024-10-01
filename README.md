@@ -21,8 +21,7 @@ cp mkscript.sh mkscript
 sudo mv mkscript /usr/local/bin
 
 # Example!
-[Animation](https://github.com/user-attachments/assets/7868c36a-e1ba-49be-87aa-5ce06ce3e61a)
-
+![Alt Text](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGtmNnA1bjJwamxvbTk4NnBsY25qeHh2b2c5NGNxNzNsZGZmOWw3biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bvkTppcJO3mf7uw1qu/giphy.gif)
 ./mkscript.sh my_script
 This will create a file named my_script.sh, make it executable, add a shebang line, and open it in mousepad.
 

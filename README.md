@@ -29,11 +29,6 @@ This will create a file named my_script.sh, make it executable, add a shebang li
 # Options
 <script_name>: The name for the new script. If the .sh extension is not provided, it will be added automatically.
 
-# Prerequisites
-Bash: Ensure that Bash is installed and accessible in your system.
-
-vim: The script uses vim to open the created file. You can modify the script to use your preferred text editor.
-
 # Installation
 Clone the repository to your local machine:
 
@@ -46,7 +41,7 @@ Make the script executable:
 chmod +x mkscript.sh
 
 # Notes
-Ensure that the target filename does not conflict with existing files in the directory to avoid accidental overwriting.
-You can customize the script to use a different text editor by changing the mousepad command in the script.
+The script will not overwrite if filename conflicts with existing files in the directory but don't test your luck :D.
+You can customize the script to use a different text editor by changing the vim command in the script.
 Contributing
 Feel free to fork this repository and submit pull requests if you have any improvements or additional features you'd like to add. :D

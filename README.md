@@ -24,14 +24,15 @@ sudo mv mkscript /usr/local/bin
 ![Alt Text](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGtmNnA1bjJwamxvbTk4NnBsY25qeHh2b2c5NGNxNzNsZGZmOWw3biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bvkTppcJO3mf7uw1qu/giphy.gif)
 
 ./mkscript.sh my_script
-This will create a file named my_script.sh, make it executable, add a shebang line, and open it in mousepad.
+This will create a file named my_script.sh, make it executable, add a shebang line, and open it in vim.
 
 # Options
 <script_name>: The name for the new script. If the .sh extension is not provided, it will be added automatically.
 
 # Prerequisites
 Bash: Ensure that Bash is installed and accessible in your system.
-mousepad: The script uses mousepad to open the created file. You can modify the script to use your preferred text editor if mousepad is not available.
+
+vim: The script uses vim to open the created file. You can modify the script to use your preferred text editor.
 
 # Installation
 Clone the repository to your local machine:

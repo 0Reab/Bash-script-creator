@@ -13,7 +13,9 @@ Opens the new script in a text editor of your choice after the file creation for
 
 # Usage
 
-./mkscript.sh <script_name>
+./mkscript.sh <script_name><br>
+./mkscript.sh <script_name> py<br>
+(add "py" arg for python script).
 
 # Efficient Usage
 
@@ -44,3 +46,4 @@ Make the script executable:<br>
 # Notes
 
 Customize the script to use your text editor.<br>
+Use your hardcoded absolute paths to binaries and else, for better security. 

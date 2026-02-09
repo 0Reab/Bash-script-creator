@@ -7,7 +7,7 @@ Opens the new script in a text editor of your choice after the file creation for
 
 * Adds the Shebang Line.<br>
 * Set executable permission for your user.<br>
-* Adds a file extension to the filename.<br><br>
+* Adds a file extension to the filename.<br>
 * Prevents overwriting existing files.<br>
 * Open the script in your favorite text editor.<br>
 
@@ -20,7 +20,7 @@ Opens the new script in a text editor of your choice after the file creation for
 # Efficient Usage
 
 Put this script in your PATH, for eg. /usr/local/bin and remove '.sh' extension so you can run this without './'<br>
-`cp mkscript.sh mkscript`
+`cp mkscript.sh mkscript`<br>
 `sudo mv mkscript /usr/local/bin`
 
 # Example

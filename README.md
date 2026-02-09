@@ -13,9 +13,9 @@ Opens the new script in a text editor of your choice after the file creation for
 
 # Usage
 
-./mkscript.sh <script_name><br>
-./mkscript.sh <script_name> py<br>
-(add "py" arg for python script).
+`./mkscript.sh <script_name>`<br>
+`./mkscript.sh <script_name> py`<br><br>
+(add "py" arg for python script, else it will default to .sh bash script file extension).
 
 # Efficient Usage
 
@@ -29,10 +29,6 @@ Put this script in your PATH, for eg. /usr/local/bin and remove '.sh' extension 
 
 ./mkscript.sh my_script
 This will create a file named my_script.sh, make it executable, add a shebang line, and open it in vim.
-
-# Options
-
-<script_name>: Name for the new script. If the .sh extension is not provided, it will be added automatically.
 
 # Installation
 

@@ -1,12 +1,15 @@
 #!/bin/bash
 # One tip: Putting this script in /usr/local/bin and removing .sh extension will make this easy to run globally
 # For python call - mkscript script_name py
+
 green='\033[1;92m' # txt color
 red='\033[1;91m'
 name="$1" # script name
 bash_path="#!$(which bash)" # shebang path bash
 python_path="#!$(which python3)" # shebang path python3
 is_py_script=false # defualting to bash
+text_editor=$(which vim) # your text editor
+
 
 function usage() {
         printf "\n${green}Usage: $(basename "$0") <script_name>" && exit 1
@@ -36,7 +39,7 @@ function main() {
         # create file with perms and interpeter path
         [ "$is_py_script" == true ] && create_script "$python_path" || create_script "$bash_path"
 
-        vim "$name"     # open file script in vim
+        $text_editor "$name"     # open file script in vim
 }
 
 main "$@" # call main function with all args

@@ -1,6 +1,7 @@
 #!/bin/bash
 # One tip: Putting this script in /usr/local/bin and removing .sh extension will make this easy to run globally
 # For python call - mkscript script_name py
+# Ideally hardcode absolute paths to binaries for improved security.
 
 green='\033[1;92m' # txt color
 red='\033[1;91m'
